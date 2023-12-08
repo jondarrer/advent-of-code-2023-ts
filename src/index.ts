@@ -3,56 +3,6 @@ import fileReader from "./file-reader";
 
 // day imports
 import {
-  fileReadHandler as day11FileReadHandler,
-  part1 as day11part1,
-  part2 as day11part2,
-} from './day11';
-import {
-  fileReadHandler as day10FileReadHandler,
-  part1 as day10part1,
-  part2 as day10part2,
-} from "./day10";
-import {
-  fileReadHandler as day9FileReadHandler,
-  part1 as day9part1,
-  part2 as day9part2,
-} from "./day9";
-import {
-  fileReadHandler as day8FileReadHandler,
-  part1 as day8part1,
-  part2 as day8part2,
-} from "./day8";
-import {
-  fileReadHandler as day7FileReadHandler,
-  part1 as day7part1,
-  part2 as day7part2,
-} from "./day7";
-import {
-  fileReadHandler as day6FileReadHandler,
-  part1 as day6part1,
-  part2 as day6part2,
-} from "./day6";
-import {
-  fileReadHandler as day5FileReadHandler,
-  part1 as day5part1,
-  part2 as day5part2,
-} from "./day5";
-import {
-  fileReadHandler as day4FileReadHandler,
-  part1 as day4part1,
-  part2 as day4part2,
-} from "./day4";
-import {
-  fileReadHandler as day3FileReadHandler,
-  part1 as day3part1,
-  part2 as day3part2,
-} from "./day3";
-import {
-  fileReadHandler as day2FileReadHandler,
-  part1 as day2part1,
-  part2 as day2part2,
-} from "./day2";
-import {
   fileReadHandler as day1FileReadHandler,
   part1 as day1part1,
   part2 as day1part2,
@@ -60,60 +10,10 @@ import {
 
 const challenges = {
   // challenges by day
-  '11': {
-    fileReadHandler: day11FileReadHandler,
-    '1': day11part1,
-    '2': day11part2,
-  },
-  "10": {
-    fileReadHandler: day10FileReadHandler,
-    "1": day10part1,
-    "2": day10part2,
-  },
-  "9": {
-    fileReadHandler: day9FileReadHandler,
-    "1": day9part1,
-    "2": day9part2,
-  },
-  "8": {
-    fileReadHandler: day8FileReadHandler,
-    "1": day8part1,
-    "2": day8part2,
-  },
   "1": {
     fileReadHandler: day1FileReadHandler,
     "1": day1part1,
     "2": day1part2,
-  },
-  "2": {
-    fileReadHandler: day2FileReadHandler,
-    "1": day2part1,
-    "2": day2part2,
-  },
-  "3": {
-    fileReadHandler: day3FileReadHandler,
-    "1": day3part1,
-    "2": day3part2,
-  },
-  "4": {
-    fileReadHandler: day4FileReadHandler,
-    "1": day4part1,
-    "2": day4part2,
-  },
-  "5": {
-    fileReadHandler: day5FileReadHandler,
-    "1": day5part1,
-    "2": day5part2,
-  },
-  "6": {
-    fileReadHandler: day6FileReadHandler,
-    "1": day6part1,
-    "2": day6part2,
-  },
-  "7": {
-    fileReadHandler: day7FileReadHandler,
-    "1": day7part1,
-    "2": day7part2,
   },
 };
 
