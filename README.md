@@ -5,22 +5,22 @@ My solution to Advent of Code 3 in TypeScript https://adventofcode.com/2023
 ## Testing
 
 ```bash
-npm test
+yarn test
 ```
 
 ## Running
 
 ```bash
-npm start -- {day} {part}
+yarn start {day} {part}
 ```
 
-To run day 1, part 1 type `npm start -- 1 1`.
+To run day 1, part 1 type `yarn start 1 1`.
 
 ## Template for a new day's challenges
 
 ```bash
-npm run plop
+yarn run plop {day}
 ```
 
-When prompted, type in the day number, e.g. `2`. The template files for both
+If the day is left out, then when prompted, type in the day number, e.g. `2`. The template files for both
 parts of the day will be created in the `./src/day2` directory.
