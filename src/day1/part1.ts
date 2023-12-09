@@ -30,4 +30,4 @@ const isInteger = (value: string): boolean => {
 };
 
 export default part1;
-export { firstAndLastDigitsAsNumber };
+export { firstAndLastDigitsAsNumber, isInteger };
